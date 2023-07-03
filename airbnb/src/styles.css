@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0;
+    width: 550px;
+}
+
+/*  NAV  */
+
+nav {
+    height: 70px;
+    display:flex;
+    padding: 20px 36px;
+    width: 550px;
+    height: 70px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+
+}
+
+.logo {
+    width: 82px;
+    height: 25.35px;  
+}
+
+/*  MAIN  */
+
+
+.people {
+    display: flex;
+    margin: auto auto;
+    margin-top: 26px;
+    height: 232px;
+    width: 395.91px;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 600;
+    margin-left: 36px;
+}
+
+.subtitle {
+    font-size: 16px;
+    font-weight: 300;
+    margin-left: 36px;
+    max-width: 320px;
+}
+
+/* CARD */
+
+.card-photo-status {
+    position: relative;
+    margin-top: 54px;
+    margin-left: 36px;
+    margin-bottom: -10px;
+}
+
+.card-photo {
+    width: 176px;
+    height: 235px;
+    border-radius: 9px;
+}
+
+.card-status {
+    width: 61px;
+    height: 20px;
+    background-color: #FFFFFF;
+    border: 1px solid black;
+    border-radius: 2px;
+    font-size: 10.24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -3px;
+    left: 6px;
+    z-index: 1;
+}
+
+.reviews-block {
+    margin-left: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.star-icon {
+    width: 14px;
+    height: 14px;
+    margin-right: 3px;
+}
+
+.card-score {
+    color: #222222;
+    font-size: 12px;
+    font-weight: 300;
+    margin-right: 3px;
+}
+
+.card-reviews {
+    color: #918E9B;
+    font-size: 12px;
+    font-weight: 300;
+    margin-right: 3px;
+} 
+
+.card-location {
+    color: #918E9B;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.card-name {
+    margin-left: 36px;
+    margin-top: -5px;
+    margin-bottom: -10px;
+    color: #222222;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.card-price {
+    margin-left: 36px;
+    margin-bottom: -10px;
+    color: #222222;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.card-price-bold {
+    font-weight: 600;
+}
