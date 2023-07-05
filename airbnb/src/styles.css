@@ -54,6 +54,15 @@ nav {
 
 /* CARD */
 
+.cards-container {
+    display: flex;
+    overflow-x: auto;
+}
+
+.card {
+    flex-shrink: 0;
+}
+
 .card-photo-status {
     position: relative;
     margin-top: 54px;

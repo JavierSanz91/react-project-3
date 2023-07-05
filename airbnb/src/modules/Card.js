@@ -3,10 +3,10 @@ import star from "../images/star.png"
 
 export default function Card(props) {
     return (
-        <div>
+        <div className="card">
             <div className="card-photo-status">
-                <img className="card-photo" src={props.src} alt="swimmer" />
-                <p className="card-status">{props.status}</p>
+                <img className="card-photo" src={props.image} alt="swimmer" />
+                {props.openSpot === 0 && <p className="card-status">{props.status}</p>}
             </div>
             <div className="reviews-block">
                 <img className="star-icon" src={star} alt="star" />
