@@ -36,4 +36,5 @@ export default [
         price: "From $50 ",
         openSpot: 0
     }
+    
 ]
